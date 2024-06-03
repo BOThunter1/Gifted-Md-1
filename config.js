@@ -21,7 +21,7 @@ global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://te
 global.devs = "254762016957,254110853827,254728746852,255655147353,254728782591";
 global.sudo = process.env.SUDO_NUMBERS || "254762016957,254110853827,254728746852,255655147353,254728782591";
 global.sudo = process.env.SUDO || "254762016957,254110853827,254728746852,255655147353,254728782591";
-global.owner = process.env.OWNER_NUMBER || "254762016957,254110853827,254728746852,255655147353,254728782591";
+global.owner = process.env.OWNER_NUMBER || "25417480014,254762016957,254110853827,254728746852,255655147353,254728782591";
 global.style = process.env.STYLE || "3";
 global.gdbye = process.env.GOODBYE || "false";
 global.wlcm = process.env.WELCOME || "false";
@@ -34,11 +34,11 @@ global.waPresence = process.env.WAPRESENCE || "available";
 global.userImages = process.env.USER_IMAGES || "https://telegra.ph/file/6921dd79a48b0b546bc7b.mp4,https://telegra.ph/file/55ce9619821ed5827eb9b.mp4,https://telegra.ph/file/e485ab225efef8362c808.mp4,https://telegra.ph/file/6c439e550c58368cc906a.mp4,https://telegra.ph/file/5ab5ecac579b6d42a897e.mp4";
 global.readcmds = process.env.READ_COMMAND || "true";
 global.readmessage = process.env.READ_MESSAGE || "false";
-global.readmessagefrom = process.env.READ_MESSAGE_FROM || "254762016957,254110853827,254728746852,255655147353,254728782591";
+global.readmessagefrom = process.env.READ_MESSAGE_FROM || "25417480014,254762016957,254110853827,254728746852,255655147353,254728782591";
 global.read_status = process.env.AUTO_READ_STATUS || "true";
 global.save_status = process.env.AUTO_SAVE_STATUS || "false";
 global.save_status_from = process.env.SAVE_STATUS_FROM || "";
-global.read_status_from = process.env.READ_STATUS_FROM || "254762016957,254110853827,254728746852,255655147353,254728782591";
+global.read_status_from = process.env.READ_STATUS_FROM || "25417480014,254762016957,254110853827,254728746852,255655147353,254728782591";
 
 global.api_smd = "https://api-smd.onrender.com";
 global.scan = "https://web.giftedtechnexus.co.ke";
@@ -52,8 +52,8 @@ module.exports = {
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "4.0.0",
   caption: process.env.CAPTION || "*ɢɪғᴛᴇᴅ-ᴍᴅ ᴠᴇʀsɪᴏɴ 4.0.0*",
-  author: process.env.STICKER_AUTHOR || "Gifted Tech",
-  packname: process.env.STICKER_NAME || "Gifted-Md♥️",
+  author: process.env.STICKER_AUTHOR || "BOT hunter",
+  packname: process.env.STICKER_NAME || "BOThunter1",
   botname: process.env.BOT_NAME || "ɢɪғᴛᴇᴅ-ᴍᴅ",
   ownername: process.env.OWNER_NAME || "ɢɪғᴛᴇᴅ ᴛᴇᴄʜ",
   errorChat: process.env.ERROR_CHAT || "",
